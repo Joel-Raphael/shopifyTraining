@@ -218,33 +218,6 @@
     }
   },
   "sections": {
-    "all": {
-      "padding": {
-        "section_padding_heading": "Spaziatura sezione",
-        "padding_top": "Spaziatura superiore",
-        "padding_bottom": "Spaziatura inferiore"
-      },
-      "spacing": "Spaziatura",
-      "colors": {
-        "accent_1": {
-          "label": "Elemento in risalto 1"
-        },
-        "accent_2": {
-          "label": "Elemento in risalto 2"
-        },
-        "background_1": {
-          "label": "Sfondo 1"
-        },
-        "background_2": {
-          "label": "Sfondo 2"
-        },
-        "inverse": {
-          "label": "Inverso"
-        },
-        "label": "Schema colori",
-        "has_cards_info": "Per modificare lo schema dei colori delle schede, aggiorna le impostazioni del tema."
-      }
-    },
     "announcement-bar": {
       "name": "Barra degli annunci",
       "blocks": {
@@ -312,8 +285,27 @@
               "label": "Immagine"
             },
             "image_padding": {
-              "label": "Utilizza proporzioni delle immagini originali",
-              "info": "Seleziona l'opzione se non desideri che l'immagine venga ritagliata."
+              "label": "Aggiungi spaziatura immagine",
+              "info": "Se non desideri che l'immagini venga ritagliata, seleziona una spaziatura."
+            },
+            "color_scheme": {
+              "options__1": {
+                "label": "Elemento in risalto 1"
+              },
+              "options__2": {
+                "label": "Elemento in risalto 2"
+              },
+              "options__3": {
+                "label": "Sfondo 1"
+              },
+              "options__4": {
+                "label": "Sfondo 2"
+              },
+              "options__5": {
+                "label": "Inverso"
+              },
+              "label": "Schema di colori",
+              "info": "Seleziona una spaziatura immagine per rendere visibile il colore."
             }
           }
         },
@@ -377,8 +369,8 @@
               "placeholder": "Utilizza un URL YouTube o Vimeo"
             },
             "image_padding": {
-              "label": "Utilizza proporzioni delle immagini originali",
-              "info": "Seleziona l'opzione se non desideri che l'immagine venga ritagliata."
+              "label": "Aggiungi spaziatura immagine",
+              "info": "Se non desideri che l'immagine di copertina venga ritagliata, seleziona una spaziatura."
             },
             "description": {
               "label": "Testo alternativo del video",
@@ -488,6 +480,9 @@
         "show_image": {
           "label": "Mostra immagine in evidenza",
           "info": "Per un risultato ottimale, utilizza un'immagine con proporzioni 3:2. [Maggiori informazioni](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+        },
+        "soft_background": {
+          "label": "Mostra sfondo secondario"
         },
         "show_date": {
           "label": "Mostra data"
@@ -641,9 +636,6 @@
         },
         "payment_enable": {
           "label": "Mostra le icone di pagamento"
-        },
-        "margin_top": {
-          "label": "Margine superiore"
         }
       }
     },
@@ -697,9 +689,6 @@
             "label": "Inverso"
           },
           "label": "Schema di colori"
-        },
-        "margin_bottom": {
-          "label": "Margine inferiore"
         }
       }
     },
@@ -1434,7 +1423,7 @@
                 "label": "Menu a discesa"
               },
               "options__2": {
-                "label": "\"A pillole\""
+                "label": "Pulsante"
               }
             }
           }
@@ -1469,17 +1458,17 @@
           }
         },
         "collapsible_tab": {
-          "name": "Riga comprimibile",
+          "name": "Scheda comprimibile",
           "settings": {
             "heading": {
               "info": "Includi un titolo che spieghi il contenuto.",
               "label": "Titolo"
             },
             "content": {
-              "label": "Contenuto riga"
+              "label": "Contenuto della scheda"
             },
             "page": {
-              "label": "Contenuto riga dalla pagina"
+              "label": "Contenuto della scheda dalla pagina"
             },
             "icon": {
               "label": "Icona",
@@ -1731,6 +1720,9 @@
           },
           "options__2": {
             "label": "Mostra come sfondo colonna"
+          },
+          "options__3": {
+            "label": "Mostra come sfondo sezione"
           }
         },
         "button_label": {
@@ -2030,7 +2022,7 @@
                 "label": "Menu a discesa"
               },
               "options__2": {
-                "label": "\"A pillole\""
+                "label": "Pulsante"
               }
             }
           }
@@ -2515,204 +2507,6 @@
       },
       "presets": {
         "name": "Presentazione"
-      }
-    },
-    "collapsible_content": {
-      "name": "Contenuto comprimibile",
-      "settings": {
-        "caption": {
-          "label": "Didascalia"
-        },
-        "heading": {
-          "label": "Titolo"
-        },
-        "heading_alignment": {
-          "label": "Allineamento titolo",
-          "options__1": {
-            "label": "A sinistra"
-          },
-          "options__2": {
-            "label": "Al centro"
-          },
-          "options__3": {
-            "label": "A destra"
-          }
-        },
-        "layout": {
-          "label": "Layout",
-          "options__1": {
-            "label": "Nessun contenitore"
-          },
-          "options__2": {
-            "label": "Contenitore riga"
-          },
-          "options__3": {
-            "label": "Contenitore sezione"
-          }
-        },
-        "color_scheme": {
-          "label": "Schema colori",
-          "options__1": {
-            "label": "Sfondo 1"
-          },
-          "options__2": {
-            "label": "Sfondo 2"
-          },
-          "options__3": {
-            "label": "Inverso"
-          },
-          "options__4": {
-            "label": "Elemento in risalto 1"
-          },
-          "options__5": {
-            "label": "Elemento in risalto 2"
-          }
-        },
-        "container_color_scheme": {
-          "label": "Schema di colori dei contenitori",
-          "info": "Visibile quando il Layout viene impostato a contenitore Riga o Sezione.",
-          "options__1": {
-            "label": "Sfondo 1"
-          },
-          "options__2": {
-            "label": "Sfondo 2"
-          },
-          "options__3": {
-            "label": "Inverso"
-          },
-          "options__4": {
-            "label": "Elemento in risalto 1"
-          },
-          "options__5": {
-            "label": "Elemento in risalto 2"
-          }
-        },
-        "open_first_collapsible_row": {
-          "label": "Apri prima riga comprimibile"
-        },
-        "header": {
-          "content": "Layout immagine"
-        },
-        "image": {
-          "label": "Immagine"
-        },
-        "image_ratio": {
-          "label": "Proporzioni immagine",
-          "options__1": {
-            "label": "Adatta a immagine"
-          },
-          "options__2": {
-            "label": "Piccola"
-          },
-          "options__3": {
-            "label": "Grande"
-          }
-        },
-        "desktop_layout": {
-          "label": "Layout desktop",
-          "options__1": {
-            "label": "Prima il testo"
-          },
-          "options__2": {
-            "label": "Prima l'immagine"
-          },
-          "info": "Sempre prima l'immagine su dispositivo mobile."
-        }
-      },
-      "blocks": {
-        "collapsible_row": {
-          "name": "Riga comprimibile",
-          "settings": {
-            "heading": {
-              "info": "Includi un titolo che spieghi il contenuto.",
-              "label": "Titolo"
-            },
-            "row_content": {
-              "label": "Contenuto riga"
-            },
-            "page": {
-              "label": "Contenuto riga dalla pagina"
-            },
-            "icon": {
-              "label": "Icona",
-              "options__1": {
-                "label": "Nessuna"
-              },
-              "options__2": {
-                "label": "Casella"
-              },
-              "options__3": {
-                "label": "Fumetto chat"
-              },
-              "options__4": {
-                "label": "Segno di spunta"
-              },
-              "options__5": {
-                "label": "Asciugatrice"
-              },
-              "options__6": {
-                "label": "Occhio"
-              },
-              "options__7": {
-                "label": "Cuore"
-              },
-              "options__8": {
-                "label": "Ferro"
-              },
-              "options__9": {
-                "label": "Foglia"
-              },
-              "options__10": {
-                "label": "Pelle"
-              },
-              "options__11": {
-                "label": "Lucchetto"
-              },
-              "options__12": {
-                "label": "Pin mappa"
-              },
-              "options__13": {
-                "label": "Pantaloni"
-              },
-              "options__14": {
-                "label": "Aereo"
-              },
-              "options__15": {
-                "label": "Cartellino prezzo"
-              },
-              "options__16": {
-                "label": "Punto interrogativo"
-              },
-              "options__17": {
-                "label": "Reso"
-              },
-              "options__18": {
-                "label": "Righello"
-              },
-              "options__19": {
-                "label": "Maglietta"
-              },
-              "options__20": {
-                "label": "Scarpa"
-              },
-              "options__21": {
-                "label": "Silhouette"
-              },
-              "options__22": {
-                "label": "Stella"
-              },
-              "options__23": {
-                "label": "Camion"
-              },
-              "options__24": {
-                "label": "Lavaggio"
-              }
-            }
-          }
-        }
-      },
-      "presets": {
-        "name": "Contenuto comprimibile"
       }
     }
   }

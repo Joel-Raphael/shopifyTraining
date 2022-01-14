@@ -218,33 +218,6 @@
     }
   },
   "sections": {
-    "all": {
-      "padding": {
-        "section_padding_heading": "Padding för avsnitt",
-        "padding_top": "Övre padding",
-        "padding_bottom": "Nedre padding"
-      },
-      "spacing": "Radavstånd",
-      "colors": {
-        "accent_1": {
-          "label": "Accent 1"
-        },
-        "accent_2": {
-          "label": "Accent 2"
-        },
-        "background_1": {
-          "label": "Bakgrund 1"
-        },
-        "background_2": {
-          "label": "Bakgrund 2"
-        },
-        "inverse": {
-          "label": "Omvänd"
-        },
-        "label": "Färgschema",
-        "has_cards_info": "Uppdatera dina temainställningar för att ändra kortets färgsättning."
-      }
-    },
     "announcement-bar": {
       "name": "Meddelandefält",
       "blocks": {
@@ -311,8 +284,27 @@
               "label": "Bild"
             },
             "image_padding": {
-              "label": "Använd ursprungliga bildförhållanden",
-              "info": "Välj om du inte vill att din bild beskärs."
+              "label": "Lägg till bild-padding",
+              "info": "Välj bild-padding om du inte vill att din bild ska beskäras."
+            },
+            "color_scheme": {
+              "options__1": {
+                "label": "Accent 1"
+              },
+              "options__2": {
+                "label": "Accent 2"
+              },
+              "options__3": {
+                "label": "Bakgrund 1"
+              },
+              "options__4": {
+                "label": "Bakgrund 2"
+              },
+              "options__5": {
+                "label": "Omvänd"
+              },
+              "label": "Färgschema",
+              "info": "Välj bild-padding för att visa färg."
             }
           },
           "name": "Bild"
@@ -376,8 +368,8 @@
               "placeholder": "Använd en YouTube- eller en Vimeo-URL"
             },
             "image_padding": {
-              "label": "Använd ursprungliga bildförhållanden",
-              "info": "Välj om du inte vill att din bild beskärs."
+              "label": "Lägg till bild-padding",
+              "info": "Välj bild-padding om du inte vill att din omslagsbild ska beskäras."
             },
             "description": {
               "label": "Alt-text för video",
@@ -488,6 +480,9 @@
         "show_image": {
           "label": "Visa framhävd bild",
           "info": "Använd en bild med bildformat 3:2, för bästa resultat. [Mer information](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+        },
+        "soft_background": {
+          "label": "Visa sekundär bakgrund"
         },
         "show_date": {
           "label": "Visa datum"
@@ -641,9 +636,6 @@
         },
         "payment_enable": {
           "label": "Visa betalningsikoner"
-        },
-        "margin_top": {
-          "label": "Övre marginal"
         }
       }
     },
@@ -697,9 +689,6 @@
             "label": "Omvänd"
           },
           "label": "Färgschema"
-        },
-        "margin_bottom": {
-          "label": "Nedre marginal"
         }
       }
     },
@@ -1424,7 +1413,7 @@
                 "label": "Rullgardinsmeny"
               },
               "options__2": {
-                "label": "Piller"
+                "label": "Knapp"
               }
             }
           },
@@ -1460,10 +1449,10 @@
               "label": "Rubrik"
             },
             "content": {
-              "label": "Radinnehåll"
+              "label": "Flikens innehåll"
             },
             "page": {
-              "label": "Radinnehåll från sida"
+              "label": "Flikinnehåll från sida"
             },
             "icon": {
               "label": "Ikon",
@@ -1541,7 +1530,7 @@
               }
             }
           },
-          "name": "Rad som kan döljas"
+          "name": "Flik som kan döljas"
         },
         "popup": {
           "settings": {
@@ -1731,6 +1720,9 @@
           },
           "options__2": {
             "label": "Visa som kolumnbakgrund"
+          },
+          "options__3": {
+            "label": "Visa som sekundär bakgrund"
           }
         },
         "button_label": {
@@ -2030,7 +2022,7 @@
                 "label": "Rullgardinsmeny"
               },
               "options__2": {
-                "label": "Piller"
+                "label": "Knapp"
               }
             }
           }
@@ -2515,204 +2507,6 @@
       },
       "presets": {
         "name": "Bildspel"
-      }
-    },
-    "collapsible_content": {
-      "name": "Innehåll som kan döljas",
-      "settings": {
-        "caption": {
-          "label": "Rubrik"
-        },
-        "heading": {
-          "label": "Rubrik"
-        },
-        "heading_alignment": {
-          "label": "Rubriklinjering",
-          "options__1": {
-            "label": "Vänster"
-          },
-          "options__2": {
-            "label": "Centrera"
-          },
-          "options__3": {
-            "label": "Höger"
-          }
-        },
-        "layout": {
-          "label": "Layout",
-          "options__1": {
-            "label": "Ingen behållare"
-          },
-          "options__2": {
-            "label": "Radhållare"
-          },
-          "options__3": {
-            "label": "Avsnittshållare"
-          }
-        },
-        "color_scheme": {
-          "label": "Färgschema",
-          "options__1": {
-            "label": "Bakgrund 1"
-          },
-          "options__2": {
-            "label": "Bakgrund 2"
-          },
-          "options__3": {
-            "label": "Omvänd"
-          },
-          "options__4": {
-            "label": "Accent 1"
-          },
-          "options__5": {
-            "label": "Accent 2"
-          }
-        },
-        "open_first_collapsible_row": {
-          "label": "Öppna den första raden som kan döljas"
-        },
-        "header": {
-          "content": "Bildlayout"
-        },
-        "image": {
-          "label": "Bild"
-        },
-        "image_ratio": {
-          "label": "Bildförhållande",
-          "options__1": {
-            "label": "Anpassa till bild"
-          },
-          "options__2": {
-            "label": "Liten"
-          },
-          "options__3": {
-            "label": "Stor"
-          }
-        },
-        "desktop_layout": {
-          "label": "Layout för dator",
-          "options__1": {
-            "label": "Text först"
-          },
-          "options__2": {
-            "label": "Bild först"
-          },
-          "info": "Bild visas alltid först på mobil."
-        },
-        "container_color_scheme": {
-          "label": "Färgschema för container",
-          "options__1": {
-            "label": "Bakgrund 1"
-          },
-          "options__2": {
-            "label": "Bakgrund 2"
-          },
-          "options__3": {
-            "label": "Omvänd"
-          },
-          "options__4": {
-            "label": "Accent 1"
-          },
-          "options__5": {
-            "label": "Accent 2"
-          },
-          "info": "Synligt när layouten är inställd på rad- eller avsnittscontainer."
-        }
-      },
-      "blocks": {
-        "collapsible_row": {
-          "name": "Rad som kan döljas",
-          "settings": {
-            "heading": {
-              "info": "Inkludera en rubrik som beskriver innehållet.",
-              "label": "Rubrik"
-            },
-            "row_content": {
-              "label": "Radinnehåll"
-            },
-            "page": {
-              "label": "Radinnehåll från sida"
-            },
-            "icon": {
-              "label": "Ikon",
-              "options__1": {
-                "label": "Inga"
-              },
-              "options__2": {
-                "label": "Box"
-              },
-              "options__3": {
-                "label": "Chattbubbla"
-              },
-              "options__4": {
-                "label": "Bock"
-              },
-              "options__5": {
-                "label": "Torkare"
-              },
-              "options__6": {
-                "label": "Öga"
-              },
-              "options__7": {
-                "label": "Hjärta"
-              },
-              "options__8": {
-                "label": "Järn"
-              },
-              "options__9": {
-                "label": "Blad"
-              },
-              "options__10": {
-                "label": "Läder"
-              },
-              "options__11": {
-                "label": "Lås"
-              },
-              "options__12": {
-                "label": "Kartlägg pin"
-              },
-              "options__13": {
-                "label": "Byxor"
-              },
-              "options__14": {
-                "label": "Flygplan"
-              },
-              "options__15": {
-                "label": "Prislapp"
-              },
-              "options__16": {
-                "label": "Frågetecken"
-              },
-              "options__17": {
-                "label": "Retur"
-              },
-              "options__18": {
-                "label": "Linjal"
-              },
-              "options__19": {
-                "label": "Skjorta"
-              },
-              "options__20": {
-                "label": "Sko"
-              },
-              "options__21": {
-                "label": "Siluett"
-              },
-              "options__22": {
-                "label": "Stjärna"
-              },
-              "options__23": {
-                "label": "Lastbil"
-              },
-              "options__24": {
-                "label": "Tvätt"
-              }
-            }
-          }
-        }
-      },
-      "presets": {
-        "name": "Innehåll som kan döljas"
       }
     }
   }

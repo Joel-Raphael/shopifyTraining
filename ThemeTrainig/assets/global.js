@@ -442,12 +442,6 @@ class ModalDialog extends HTMLElement {
     }
   }
 
-  connectedCallback() {
-    if (this.moved) return;
-    this.moved = true;
-    document.body.appendChild(this);
-  }
-
   show(opener) {
     this.openedBy = opener;
     const popup = this.querySelector('.template-popup');

@@ -218,33 +218,6 @@
     }
   },
   "sections": {
-    "all": {
-      "padding": {
-        "section_padding_heading": "Osion täyttö",
-        "padding_top": "Yläosan täyttö",
-        "padding_bottom": "Alaosan täyttö"
-      },
-      "spacing": "Väli",
-      "colors": {
-        "accent_1": {
-          "label": "Korostus 1"
-        },
-        "accent_2": {
-          "label": "Korostus 2"
-        },
-        "background_1": {
-          "label": "Tausta 1"
-        },
-        "background_2": {
-          "label": "Tausta 2"
-        },
-        "inverse": {
-          "label": "Käänteinen"
-        },
-        "label": "Värimalli",
-        "has_cards_info": "Voit muuttaa kortin väriskeemaa päivittämällä teema-asetuksia."
-      }
-    },
     "announcement-bar": {
       "name": "Ilmoituspalkki",
       "blocks": {
@@ -312,8 +285,27 @@
               "label": "Kuva"
             },
             "image_padding": {
-              "label": "Käytä alkuperäistä kuvasuhdetta",
-              "info": "Valitse, jos et halua, että kuvaasi rajataan."
+              "label": "Lisää kuvan täyttö",
+              "info": "Valitse kuvan täyttäminen, jos et halua, että kuvaasi rajataan."
+            },
+            "color_scheme": {
+              "options__1": {
+                "label": "Korostus 1"
+              },
+              "options__2": {
+                "label": "Korostus 2"
+              },
+              "options__3": {
+                "label": "Tausta 1"
+              },
+              "options__4": {
+                "label": "Tausta 2"
+              },
+              "options__5": {
+                "label": "Käänteinen"
+              },
+              "label": "Värimalli",
+              "info": "Tee väristä näkyvä valitsemalla kuvan täyttö."
             }
           }
         },
@@ -377,8 +369,8 @@
               "placeholder": "Käytä YouTube- tai Vimeo-linkkiä"
             },
             "image_padding": {
-              "label": "Käytä alkuperäistä kuvasuhdetta",
-              "info": "Valitse, jos et halua, että kuvaasi rajataan."
+              "label": "Lisää kuvan täyttö",
+              "info": "Valitse kuvan täyttäminen, jos et halua, että kansikuvaasi rajataan."
             },
             "description": {
               "label": "Videon vaihtoehtoinen teksti",
@@ -488,6 +480,9 @@
         "show_image": {
           "label": "Näytä esittelykuva",
           "info": "Saat parhaat tulokset käyttämällä kuvaa, jonka kuvasuhde on 3:2. [Lisätietoja](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+        },
+        "soft_background": {
+          "label": "Näytä toissijainen tausta"
         },
         "show_date": {
           "label": "Näytä päivämäärä"
@@ -641,9 +636,6 @@
         },
         "payment_enable": {
           "label": "Näytä maksukuvakkeet"
-        },
-        "margin_top": {
-          "label": "Yläreunus"
         }
       }
     },
@@ -697,9 +689,6 @@
             "label": "Käänteinen"
           },
           "label": "Värimalli"
-        },
-        "margin_bottom": {
-          "label": "Alareunus"
         }
       }
     },
@@ -1432,7 +1421,7 @@
                 "label": "Pudotusvalikko"
               },
               "options__2": {
-                "label": "Pillerit"
+                "label": "Painike"
               }
             }
           }
@@ -1467,17 +1456,17 @@
           }
         },
         "collapsible_tab": {
-          "name": "Pienenettävä rivi",
+          "name": "Pienennettävä välilehti",
           "settings": {
             "heading": {
               "info": "Lisää sisältöä kuvaava otsikko.",
               "label": "Otsikko"
             },
             "content": {
-              "label": "Rivin sisältö"
+              "label": "Välilehden sisältö"
             },
             "page": {
-              "label": "Rivin sisältö sivulta"
+              "label": "Välilehden sisältö sivulta"
             },
             "icon": {
               "options__1": {
@@ -1730,6 +1719,9 @@
           },
           "options__2": {
             "label": "Näytä sarakkeen taustana"
+          },
+          "options__3": {
+            "label": "Näytä osion taustana"
           }
         },
         "button_label": {
@@ -2029,7 +2021,7 @@
                 "label": "Pudotusvalikko"
               },
               "options__2": {
-                "label": "Pillerit"
+                "label": "Painike"
               }
             }
           }
@@ -2425,204 +2417,6 @@
       },
       "presets": {
         "name": "Diaesitys"
-      }
-    },
-    "collapsible_content": {
-      "name": "Pienenettävä sisältö",
-      "settings": {
-        "caption": {
-          "label": "Kuvateksti"
-        },
-        "heading": {
-          "label": "Otsikko"
-        },
-        "heading_alignment": {
-          "label": "Otsikon tasaus",
-          "options__1": {
-            "label": "Vasen"
-          },
-          "options__2": {
-            "label": "Keskitetty"
-          },
-          "options__3": {
-            "label": "Oikea"
-          }
-        },
-        "layout": {
-          "label": "Asettelu",
-          "options__1": {
-            "label": "Ei säiliötä"
-          },
-          "options__2": {
-            "label": "Rivisäiliö"
-          },
-          "options__3": {
-            "label": "Osiosäiliö"
-          }
-        },
-        "color_scheme": {
-          "label": "Värimalli",
-          "options__1": {
-            "label": "Tausta 1"
-          },
-          "options__2": {
-            "label": "Tausta 2"
-          },
-          "options__3": {
-            "label": "Käänteinen"
-          },
-          "options__4": {
-            "label": "Korostus 1"
-          },
-          "options__5": {
-            "label": "Korostus 2"
-          }
-        },
-        "open_first_collapsible_row": {
-          "label": "Avaa ensimmäinen pienenettävä rivi"
-        },
-        "header": {
-          "content": "Kuvan asettelu"
-        },
-        "image": {
-          "label": "Kuva"
-        },
-        "image_ratio": {
-          "label": "Kuvasuhde",
-          "options__1": {
-            "label": "Sovita kuvaan"
-          },
-          "options__2": {
-            "label": "Pieni"
-          },
-          "options__3": {
-            "label": "Suuri"
-          }
-        },
-        "desktop_layout": {
-          "label": "Pöytäkoneen asettelu",
-          "options__1": {
-            "label": "Teksti ensin"
-          },
-          "options__2": {
-            "label": "Kuva ensin"
-          },
-          "info": "Kuva on aina ensisijainen mobiilissa."
-        },
-        "container_color_scheme": {
-          "label": "Säiliön värimalli",
-          "options__1": {
-            "label": "Tausta 1"
-          },
-          "options__2": {
-            "label": "Tausta 2"
-          },
-          "options__3": {
-            "label": "Käänteinen"
-          },
-          "options__4": {
-            "label": "Korostus 1"
-          },
-          "options__5": {
-            "label": "Korostus 2"
-          },
-          "info": "Näkyy, kun asetteluna on rivi- tai osiosäiliö."
-        }
-      },
-      "blocks": {
-        "collapsible_row": {
-          "name": "Pienenettävä rivi",
-          "settings": {
-            "heading": {
-              "info": "Lisää sisältöä kuvaava otsikko.",
-              "label": "Otsikko"
-            },
-            "row_content": {
-              "label": "Rivin sisältö"
-            },
-            "page": {
-              "label": "Rivin sisältö sivulta"
-            },
-            "icon": {
-              "label": "Kuvake",
-              "options__1": {
-                "label": "Ei yhtään"
-              },
-              "options__2": {
-                "label": "Postilokero"
-              },
-              "options__3": {
-                "label": "Keskustelukupla"
-              },
-              "options__4": {
-                "label": "Valintamerkki"
-              },
-              "options__5": {
-                "label": "Kuivain"
-              },
-              "options__6": {
-                "label": "Silmä"
-              },
-              "options__7": {
-                "label": "Sydän"
-              },
-              "options__8": {
-                "label": "Silitysrauta"
-              },
-              "options__9": {
-                "label": "Lehti"
-              },
-              "options__10": {
-                "label": "Nahka"
-              },
-              "options__11": {
-                "label": "Lukko"
-              },
-              "options__12": {
-                "label": "Karttamerkki"
-              },
-              "options__13": {
-                "label": "Housut"
-              },
-              "options__14": {
-                "label": "Lentokone"
-              },
-              "options__15": {
-                "label": "Hintalappu"
-              },
-              "options__16": {
-                "label": "Kysymysmerkki"
-              },
-              "options__17": {
-                "label": "Palaa"
-              },
-              "options__18": {
-                "label": "Viivain"
-              },
-              "options__19": {
-                "label": "Paita"
-              },
-              "options__20": {
-                "label": "Kenkä"
-              },
-              "options__21": {
-                "label": "Siluetti"
-              },
-              "options__22": {
-                "label": "Tähti"
-              },
-              "options__23": {
-                "label": "Kuljetusajoneuvo"
-              },
-              "options__24": {
-                "label": "Pesu"
-              }
-            }
-          }
-        }
-      },
-      "presets": {
-        "name": "Pienenettävä sisältö"
       }
     }
   }
